@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
+
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href="./assets/images/favicon-32x32.png"
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="main-app.css" />
+
+  <script defer src="main-app.js"></script>
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+<body>
+  <!-- Sign-up form start -->
+  <nav id="modal-for-update" class="modalForStayingUpdated">
+    <img src="assets/images/image.png" alt="image" />
+    
+    <h1>Stay updated!</h1>
+
+    <p>Join 60,000+ product managers receiving monthly updates on:</p>
+
+    <ul class="iconSuccess">
+      <li>Product discovery and building what matters</li>
+      <li>Measuring to ensure updates are a success</li>
+      <li>And much more!</li>
+    </ul>
+  
+    <p>Email address</p>
+    <input id="input-email" type="email" placeholder="email@company.com" />
+    <div class="containerForButton">
+      <button id="button-email">Subscribe to monthly newsletter</button>
+    </div>
+  </nav>
+  <!-- Sign-up form end -->
+
+  <!-- Success message start -->
+  <nav id="modal-for-success" class="modalForSuccessNewsletter">
+    <h1 class="h1ForSubscribe">Thanks for subscribing!</h1>
+    <p id="br-email"></p>
+    <div class="containerForButtonSuccess">
+      <button id="button-dismiss">Dismiss message</button>
+    </div>
+  </nav>
+  <!-- Success message end -->
+
+  <h3>
+    follow me on linkedin:
+    <a href="https://www.linkedin.com/in/faisal-omar-2592a022a/"
+      >https://www.linkedin.com/in/faisal-omar-2592a022a/</a
+    >
+  </h3>
+
+  <div class="attribution">
+    Challenge by
+    <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+      >Frontend Mentor</a
+    >. Coded by <a href="#">Faisal </a>.
+  </div>
+</body>
+</html>
